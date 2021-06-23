@@ -4,15 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="앱 목록"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
     <GridView
-        android:id="@+id/gridView"
+        android:id="@+id/gridV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="2"
         android:horizontalSpacing="30dp"
         android:verticalSpacing="30dp"
         android:layout_margin="10dp"/>
-
 </LinearLayout>
